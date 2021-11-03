@@ -571,7 +571,6 @@ numpy = [
     {version = ">=1.17.3", markers = "platform_machine != \"aarch64\" and platform_machine != \"arm64\" and python_version < \"3.10\""},
     {version = ">=1.19.2", markers = "platform_machine == \"aarch64\" and python_version < \"3.10\""},
     {version = ">=1.20.0", markers = "platform_machine == \"arm64\" and python_version < \"3.10\""},
-    {version = ">=1.21.0", markers = "python_version >= \"3.10\""},
 ]
 python-dateutil = ">=2.7.3"
 pytz = ">=2017.3"
@@ -1057,8 +1056,8 @@ notebook = ">=4.4.1"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "3.8.8"
-content-hash = "b255655f8f97748a46b3806080354e4b5b16013887667dfa0742cbf531f73e80"
+python-versions = "3.8.12"
+content-hash = "50313e37ce7beb46079d79e6b9cd38a215ffe54511d22ee55fe77784c58198c3"
 
 [metadata.files]
 altair = [
