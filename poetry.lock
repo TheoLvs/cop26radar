@@ -1057,7 +1057,7 @@ notebook = ">=4.4.1"
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.8,<3.11"
+python-versions = "3.8.8"
 content-hash = "b255655f8f97748a46b3806080354e4b5b16013887667dfa0742cbf531f73e80"
 
 [metadata.files]
