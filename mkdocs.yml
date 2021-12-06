@@ -5,6 +5,8 @@ site_url: "https://theolvs.github.io/cop26radar"
 edit_uri: ""
 theme:
   name: 'material'
+  logo: img/COP26.jpg
+  favicon: img/favicon-96x96-1.png
   font:
     text: Inter
   features:
@@ -42,7 +44,7 @@ extra_css:
 nav:
   - Home: 
     - Home: index.md
-    - Carbon Footprint: references.md
+    - Carbon Footprint: carbon-footprint.md
     - References: references.md
   - COP26 Radar:
     - Introduction:
