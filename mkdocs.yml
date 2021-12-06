@@ -1,0 +1,49 @@
+site_name: COP26 Radar
+site_description: 'COP26 Radar'
+site_author: 'Théo Alves Da Costa'
+site_url: "https://theolvs.github.io/cop26radar"
+edit_uri: ""
+theme:
+  name: 'material'
+  font:
+    text: Inter
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+repo_name: 'theolvs/cop26radar'
+repo_url: 'https://github.com/TheoLvs/cop26radar'
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TheoLvs
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/theolvsdc
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/
+
+
+extra_css:
+  - ./stylesheets/extra.css
+
+nav:
+  - Home: 
+    - Home: index.md
+    - Carbon Footprint: references.md
+    - References: references.md
+  - COP26 Radar:
+    - Introduction:
+      - Quickstart: tutorials/quickstart.md
